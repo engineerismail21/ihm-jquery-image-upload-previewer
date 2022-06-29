@@ -1,0 +1,31 @@
+#form {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+#form h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#form hr {
+    margin: 7px 0;
+    padding: 0;
+}
+
+#form img {
+    width: 100%;
+}
+
+#form .preview-loader.multiple img {
+    width: 33%;
+}
+
+#form .photo-uploader {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}

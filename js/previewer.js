@@ -6,7 +6,7 @@ if (mItImgUplPreviewer.length > 0) {
         let previewHtml = jQuery(this).find('.preview-loader').html();
 
         jQuery(this).html('<div class="file-uploader-box">' +
-            '<div class="preview-loader">' + previewHtml + '</div>' +
+            '<div class="preview-loader '+uploadedType+'">' + previewHtml + '</div>' +
             '<div class="input-box">' +
             '<input type="file" class="photo-uploader" name="' + fileName + '" ' + (uploadedType == "multiple" ? "multiple" : "") + '>' +
             '</div>' +
